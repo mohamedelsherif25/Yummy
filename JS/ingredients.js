@@ -20,7 +20,7 @@ function displayIngredients(meals) {
                 }')">
           <div>
             <img
-              src="../Meal-PNG-Download-Image.png"
+              src="Meal-PNG-Download-Image.png"
               class="img-fluid rounded-5"
               alt=""
             />

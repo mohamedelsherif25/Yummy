@@ -14,7 +14,7 @@ function diplayAreas(areas) {
     allAreas += `
         <a href= "#" class="col-md-3 text-center" onclick="getMealsOfArea('${areas[i].strArea}')">
           <div>
-            <img src="../unnamed.jpg" class="img-fluid rounded-5" alt="" />
+            <img src="unnamed.jpg" class="img-fluid rounded-5" alt="" />
           </div>
           <p class="text-center mt-2 text-white fs-4">${areas[i].strArea} </p>
         </a>
