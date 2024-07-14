@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <title>Yummy</title>
+  </head>
+  <body>
+    <div
+      id="loading"
+      class="position-absolute w-100 vh-100 z-3 bg-dark top-0 start-0 justify-content-center align-items-center"
+    >
+      <span class="loader text-white"></span>
+    </div>
+    <!-- start nav -->
+    <div class="nav-slide bg-danger position-fixed z-3 vh-100 d-flex">
+      <div class="h-100 py-4 d-flex flex-wrap align-content-between">
+        <ul class="w-100 ps-4">
+          <li><a href="search.html">Search</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="area.html">Area</a></li>
+          <li><a href="ingredients.html">Ingredients</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <div class="w-100 ps-4">
+          <div class="social-icons">
+            <a href="#"> <i class="fa-brands fa-facebook"></i> </a>
+            <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+            <a href="#"> <i class="fa-solid fa-globe"></i> </a>
+          </div>
+          <p class="text-white">Copyright Â© 2019 All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="py-4 d-flex flex-wrap align-content-between text-center">
+        <div class="w-100">
+          <img src="logo.png" class="img-fluid" alt="logo" />
+        </div>
+        <a href="#" class="w-100" id="toggle-icon">
+          <i class="fa-solid fa-align-justify fs-2 text-dark exit"></i>
+        </a>
+        <div class="w-100">
+          <a href="#" class="d-block w-100 text-dark">
+            <i class="fa-solid fa-globe fs-4 mb-1"></i>
+          </a>
+          <a href="#" class="d-block w-100 text-dark"
+            ><i class="fa-solid fa-share-nodes fs-4"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- end nav -->
+    <div class="container py-5">
+      <div class="row gy-4" id="ingredients"></div>
+    </div>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery-3.7.1.min.js"></script>
+    <script src="JS/main.js"></script>
+    <script src="JS/ingredients.js"></script>
+  </body>
+</html>
