@@ -50,6 +50,10 @@ body {
 }
 /* end con */
 
+#btn-submit {
+  width: 100px;
+}
+
 @media (min-width: 576px) and (max-width: 992px) {
   .col-sm-3 .layer {
     font-size: 18px !important;
